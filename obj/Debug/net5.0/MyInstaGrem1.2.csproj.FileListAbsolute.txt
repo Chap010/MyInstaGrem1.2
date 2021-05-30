@@ -1,0 +1,15 @@
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.csprojAssemblyReference.cache
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.AssemblyInfoInputs.cache
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.AssemblyInfo.cs
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.csproj.CoreCompileInputs.cache
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/bin/Debug/net5.0/MyInstaGrem1.2.deps.json
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/bin/Debug/net5.0/MyInstaGrem1.2.runtimeconfig.json
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/bin/Debug/net5.0/MyInstaGrem1.2.runtimeconfig.dev.json
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/bin/Debug/net5.0/MyInstaGrem1.2.dll
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/bin/Debug/net5.0/ref/MyInstaGrem1.2.dll
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/bin/Debug/net5.0/MyInstaGrem1.2.pdb
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.dll
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/ref/MyInstaGrem1.2.dll
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.pdb
+/Users/GreaserSec/Documents/VS Projects/MyInstaGrem1.2/obj/Debug/net5.0/MyInstaGrem1.2.genruntimeconfig.cache

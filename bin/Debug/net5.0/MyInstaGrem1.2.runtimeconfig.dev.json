@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/GreaserSec/.dotnet/store/|arch|/|tfm|",
+      "/Users/GreaserSec/.nuget/packages"
+    ]
+  }
+}
