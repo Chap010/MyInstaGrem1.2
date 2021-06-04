@@ -5,52 +5,71 @@ namespace MyInstaGrem1._2
 {
 
 
-    class Program
+    class MidTerm
     {
-
-
-        static void Main(string[] args)
-        {
-            Register();
-            MainMenu();
-        }
-
-        static void Register()
-        {
-
-            Console.WriteLine("Welcome To MyGrem A Console APP Version!!");
-            Console.WriteLine();
-            Console.WriteLine("Please Enter Your Username To Register To MyGrem: ");
-            string Users = Console.ReadLine();
-            Console.WriteLine("Hello Welcome To InstaGrem " + Users);
-
-
-        }
-
 
         static void MainMenu()
 
         {
-            Console.WriteLine("Select 1: To Post On Your Profile ");
-            Console.WriteLine("Select 2: To View Users Comments ");
-            Console.WriteLine("Select 3: To Search Users ");
-            Console.WriteLine("Select 4: To Exit ");
             string mySelection;
+            List<Users> userList = new List<Users>();
+            List<Comment> CommentList = new List<Comment>();
+
+
+
+            while(mySelection!="5")
+            { 
+            Console.WriteLine("Select 1: User Registration ");
+            Console.WriteLine("Select 2: To Create a Comment ");
+            Console.WriteLine("Select 3: Print User List ");
+            Console.WriteLine("Select 4: Print Comment List");
+            Console.WriteLine("Select 5: To Exit ");
             mySelection = Console.ReadLine();
-            
+            }
 
             switch (mySelection)
             {
                 case "1":
-                        Post();
-                    break;
+                        Users users = new Users();
+                        userList.Add(users);
+                        Users.Email = "chicharones@rtx.com";
+                        Users.Password = "bochito2351":
+                        Users.UserId = 1;
+                        Users.UserName = "rosewell51";
+                        Console.WriteLine("You Crested A Username!!!");
+                        break;
+                        
+                 
                 case "2":
-                        Comments();
-                    break;
+                      Comment mycomment = new Comment();
+                      CommentList.Add(Comment);
+                      mycomment.CommentID = 1;
+                     mycomment.CommentData = "Hey Bro";
+                        break;
+
                 case "3":
-                        Users();
-                    break;
+                    Console.WriteLine("Current User List: ")
+                    foreach(var users in usersList)
+                    {
+                        Console.WriteLine("Email: " + InsideUsers.Email);
+                        Console.WriteLine("HashPass: " + InsideUsers.Password);
+                        Console.WriteLine("ID: " + InsideUsers.UserId);
+                        Console.WriteLine("Username: " + InsideUsers.UserName);
+                    }
+                        break;
+
                 case "4":
+                        Console.WriteLine("Current Comments List: ")
+                    foreach(var comment in CommentList)
+                    {
+                        Console.WriteLine("CommentID: " + InsideComment.CommentId);
+                        Console.WriteLine("Data: " + InsideComment.CommentData);
+
+                    }
+                    break;
+
+
+                case "5":
                         Exit();
                     break;
 
@@ -65,60 +84,6 @@ namespace MyInstaGrem1._2
             string Cpost = Console.ReadLine();
             Console.ReadLine();
 
-
-
-        }
-        static void Comments()
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Type Something To View Your Comments!");
-            string CommentD = Console.ReadLine();
-            Console.WriteLine("Your Comment: " + CommentD);
-     
-            List<CommentData> commentlist = new List<CommentData>();
-            commentlist.Add(new CommentData());
-            commentlist[0].Data = "~~ " + "Wolfz you wanna play some rainbow six? ";
-            commentlist[0].userID = ":"+ " mohammed";
-            
-
-            commentlist.Add(new CommentData());
-            commentlist[1].userID = ":"+ " wolfz";
-            commentlist[1].Data = "~~ " + "Hello XD mohammed! send me a invite ";
-
-            commentlist.Add(new CommentData());
-            commentlist[2].Data = "~~ " + "a fresh slushie with this hot weather ";
-            commentlist[2].userID = ":" + " don";
-
-            commentlist.Add(new CommentData());
-            commentlist[3].Data = "~~ " + "any fun movies to watch? ";
-            commentlist[3].userID = ":" + " maria";
-
-            commentlist.Add(new CommentData());
-            commentlist[4].Data = "~~ " + "testing my new compressor ";
-            commentlist[4].userID = ":" + " Goofy";
-            foreach (CommentData Calls in commentlist)
-            {
-                Console.WriteLine(Calls.getdata());
-            }
-            Console.ReadLine();
-
-        }
-        static void Users()
-        {
-            Console.ForegroundColor = ConsoleColor.Gray;
-            Console.WriteLine("Type Username To Search Them");
-            Console.ReadLine();
-
-
-
-        }
-        static void Exit()
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Are You Sure You Want to Quit? ");
-            Console.WriteLine("Type Enter To Confirm!");
-            Console.ReadLine();
-            Environment.Exit(1);
 
 
         }
